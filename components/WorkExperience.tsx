@@ -2,7 +2,9 @@
 import React from 'react'
 import { motion } from 'framer-motion'
 import Image from 'next/image'
-import ExperienceCard from './ExperienceCard'
+import ExperienceCard1 from './ExperienceCard1'
+import ExperienceCard2 from './ExperienceCard2'
+import ExperienceCard3 from './ExperienceCard3'
 type Props = {}
 
 export default function WorkExperience({ }: Props) {
@@ -16,13 +18,10 @@ export default function WorkExperience({ }: Props) {
       <h3 className='absolute top-24 uppercase tracking-[20px] text-gray-500 text-2xl'>
         Experiencia
       </h3>
-      <div>
-        {/* ExperienceCard */}
-        <ExperienceCard />
-        <ExperienceCard />
-        <ExperienceCard />
-        <ExperienceCard />
-
+      <div className='w-full flex space-x-5 overflow-x-scroll p-10 snap-x snap-mandatory mt-28 md:mt-52'>
+        <ExperienceCard1 />
+        <ExperienceCard2 />
+        <ExperienceCard3 />
       </div>
     </motion.div>
   )

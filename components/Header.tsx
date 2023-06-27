@@ -27,22 +27,28 @@ export default function Header({ }: Props) {
         className='flex flex-row items-center'>
         {/* Social icons */}
         <SocialIcon
-          url='https://www.youtube.com/@SonnySangha'
+          url='https://www.youtube.com/@gerardotacayterrazos3020/'
           fgColor='gray'
           bgColor='transparent'
         />
         <SocialIcon
-          url='https://www.facebook.com/pucp'
+          url='https://www.facebook.com/gerardo.tacayterrazos/'
           fgColor='gray'
           bgColor='transparent'
         />
         <SocialIcon
-          url='https://twitter.com/pucp'
+          url='https://twitter.com/kerathsiwo'
           fgColor='gray'
           bgColor='transparent'
         />
         <SocialIcon
-          url='https://paideia.pucp.edu.pe/'
+          url='https://www.linkedin.com/in/gerardo-tacay-terrazos-a0564b1b8/'
+          fgColor='gray'
+          bgColor='transparent'
+        />
+
+        <SocialIcon
+          url='https://www.instagram.com/gkerath/'
           fgColor='gray'
           bgColor='transparent'
         />
@@ -69,7 +75,7 @@ export default function Header({ }: Props) {
           bgColor='transparent'
         />
         <p className='uppercase hidden md:inline-flex text-sm text-gray-400' >
-          Contactanos
+          Contáctame
         </p>
       </motion.div>
     </header >
