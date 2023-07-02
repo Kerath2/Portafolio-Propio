@@ -22,38 +22,42 @@ export default function ExperienceCard1({ }: Props) {
         object-center '
           width={100}
           height={100}
-          src="/conejo.jpeg"
+          src="/pixel.png"
           alt='conejo'
         />
       </motion.div>
       <div className='px-0 md:px-10'>
-        <h4 className='text-4xl font-light'>Trabajo1</h4>
+        <h4 className='text-4xl font-light'>PIXEL</h4>
         <p className='font-bold text-2xl mt-1 '> </p>
         <div className='flex space-x-2 my-2 '>
           <img
             className='h-10 w-10 rounded-full'
-            src="/java.png"
+            src="/html.png"
           />
           <img
             className='h-10 w-10 rounded-full'
-            src="/java.png"
+            src="/css.png"
           />
           <img
             className='h-10 w-10 rounded-full'
-            src="/java.png"
+            src="/javaScript.png"
           />
           <img
             className='h-10 w-10 rounded-full'
-            src="/java.png"
+            src="/ts.png"
+          />
+          <img
+            className='h-10 w-10 rounded-full'
+            src="/react.png"
           />
         </div>
         <p className='uppercase py-5 text-gray-300'
-        >Started work .... Ended ....</p>
+        >Enero 2023 - Ahora</p>
         <ul className='list-disc space-y-4 ml-5 text-lg'>
-          <li>Sumary points</li>
-          <li>Sumary points</li>
-          <li>Sumary points</li>
-          <li>Sumary points</li>
+          <li>Grupo de estudio enfocado en el desarollo de aplicaciones
+            web y mobile.
+          </li>
+          <li>Uso de tecnologias frontend: React Nextjs Tailwind</li>
         </ul>
       </div>
     </article>

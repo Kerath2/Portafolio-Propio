@@ -23,38 +23,28 @@ export default function ExperienceCard2({ }: Props) {
         object-center '
           width={100}
           height={100}
-          src="/conejo.jpeg"
+          src="/wiepucp.jpeg"
           alt='conejo'
         />
       </motion.div>
       <div className='px-0 md:px-10'>
-        <h4 className='text-4xl font-light'> Trabajo2</h4>
+        <h4 className='text-4xl font-light '> WIE-PUCP</h4>
         <p className='font-bold text-2xl mt-1 '> </p>
         <div className='flex space-x-2 my-2 '>
           <img
             className='h-10 w-10 rounded-full'
-            src="/java.png"
+            src="/wie-icono.png"
           />
           <img
             className='h-10 w-10 rounded-full'
-            src="/oracle.png"
-          />
-          <img
-            className='h-10 w-10 rounded-full'
-            src="/java.png"
-          />
-          <img
-            className='h-10 w-10 rounded-full'
-            src="/java.png"
+            src="/ieee-icono.png"
           />
         </div>
         <p className='uppercase py-5 text-gray-300'
-        >Started work .... Ended ....</p>
+        >Marzo 2023  - Ahora</p>
         <ul className='list-disc space-y-4 ml-5 text-lg'>
-          <li>Sumary points</li>
-          <li>Sumary points</li>
-          <li>Sumary points</li>
-          <li>Sumary points</li>
+          <li>Gestión del talento humano</li>
+          <li>Organización WIE-day </li>
         </ul>
       </div>
     </article>

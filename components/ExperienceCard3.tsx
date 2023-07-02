@@ -1,7 +1,6 @@
 import React from 'react'
 import { motion } from 'framer-motion'
 import Image from 'next/image'
-
 type Props = {}
 
 export default function ExperienceCard3({ }: Props) {
@@ -28,24 +27,28 @@ export default function ExperienceCard3({ }: Props) {
         />
       </motion.div>
       <div className='px-0 md:px-10'>
-        <h4 className='text-4xl font-light'>Trabajo3</h4>
+        <h4 className='text-4xl font-light'>Cloud</h4>
         <p className='font-bold text-2xl mt-1 '> </p>
         <div className='flex space-x-2 my-2 '>
           <img
             className='h-10 w-10 rounded-full'
-            src="/java.png"
+            src="/html.png"
           />
           <img
             className='h-10 w-10 rounded-full'
-            src="/java.png"
+            src="/css.png"
           />
           <img
             className='h-10 w-10 rounded-full'
-            src="/java.png"
+            src="/javaScript.png"
           />
           <img
             className='h-10 w-10 rounded-full'
-            src="/java.png"
+            src="/ts.png"
+          />
+          <img
+            className='h-10 w-10 rounded-full'
+            src="/react.png"
           />
         </div>
         <p className='uppercase py-5 text-gray-300'

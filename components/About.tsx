@@ -34,22 +34,28 @@ export default function About({ }: Props) {
         <Image
           className='-mb-20 md:mb-0 flex-shrink-0 w-56 h-56 rounded-full object-cover
           md:rounded-lg md:w-64 md:h-95 xl:w-[400px] xl:h-[500px]'
-          src="/perro.jpeg"
+          src="/gerardo-aws.jpeg"
           width={300}
           height={300}
-          alt="Perro"
+          alt="gerardo-aws"
         />
       </motion.div>
 
       <div className='space-y-10 px-0 md:px-10'>
         <h4 className='text-4xl font-semibold'>
-          Here is a <span className='underline decoration-[#F7AB0A]/50'> litle</span> background
+          Hola 👋🏻 soy <span className='underline decoration-[#F7AB0A]/50'> Gerardo </span>
         </h4>
-        <p className='text-sm'>
-          Somos un grupo de desarrollo fronted que empezo a operar a inicios del 2023.
-          <br />Nuestro primer
-          proyecto fue realizar una calculadora. Ahora nuestro segundo <br /> proyecto <br /> es realizar un
-          portafolio de todo el grupo.
+        <p className='text-sm '>
+          Estudiante del octavo ciclo de  Ingeniería Informática en la
+          <a className='font-bold'
+            href="https://www.pucp.edu.pe"> Pontificia Universidad Católica del Perú</a>
+          <br />
+          interesado en cloud computing, linux y desarrollo de software.
+          <br />
+          Me considero una persona empática, orientada a resultados y a la mejora continua, con capacidad de liderazgo
+          y trabajo en equipo.
+          <br />
+          Me encanta leer , la música, el deporte, ánimes y novelas
         </p>
       </div>
 
