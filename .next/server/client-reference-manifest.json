@@ -389,10 +389,6 @@
     }
   },
   "entryCSSFiles": {
-    "/Users/gkerath/Documents/playGround/Portafolio-Propio/app/page": {
-      "modules": [],
-      "files": []
-    },
     "/Users/gkerath/Documents/playGround/Portafolio-Propio/app/layout": {
       "modules": [
         "/Users/gkerath/Documents/playGround/Portafolio-Propio/app/globals.css",
@@ -401,6 +397,10 @@
       "files": [
         "static/css/app/layout.css"
       ]
+    },
+    "/Users/gkerath/Documents/playGround/Portafolio-Propio/app/page": {
+      "modules": [],
+      "files": []
     }
   }
 }
