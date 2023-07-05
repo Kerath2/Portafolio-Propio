@@ -14,5 +14,12 @@
     border-[#242424] text-gray-500 placeholder-gray-500 transition-all 
     focus:border-[#F7AB0A]/40 focus:text-[#F7AB0A]/40
   }
+  
+  .text-container {
+justify-content: flex-end;
+  width: calc(100% - 400px); /* Ajusta el valor según el ancho de tu imagen */
+}
+
+
 
 }

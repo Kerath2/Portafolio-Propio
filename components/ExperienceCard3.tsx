@@ -22,42 +22,26 @@ export default function ExperienceCard3({ }: Props) {
         object-center '
           width={100}
           height={100}
-          src="/conejo.jpeg"
+          src="/linux.png"
           alt='conejo'
         />
       </motion.div>
       <div className='px-0 md:px-10'>
-        <h4 className='text-4xl font-light'>Cloud</h4>
+        <h4 className='text-4xl font-light'>Hobbys</h4>
         <p className='font-bold text-2xl mt-1 '> </p>
         <div className='flex space-x-2 my-2 '>
           <img
             className='h-10 w-10 rounded-full'
-            src="/html.png"
-          />
-          <img
-            className='h-10 w-10 rounded-full'
-            src="/css.png"
-          />
-          <img
-            className='h-10 w-10 rounded-full'
-            src="/javaScript.png"
-          />
-          <img
-            className='h-10 w-10 rounded-full'
-            src="/ts.png"
-          />
-          <img
-            className='h-10 w-10 rounded-full'
-            src="/react.png"
+            src="/solidity.png"
           />
         </div>
         <p className='uppercase py-5 text-gray-300'
-        >Started work .... Ended ....</p>
+        >Todo el tiempo </p>
         <ul className='list-disc space-y-4 ml-5 text-lg'>
-          <li>Sumary points</li>
-          <li>Sumary points</li>
-          <li>Sumary points</li>
-          <li>Sumary points</li>
+          <li>Cloud compunting en AWS</li>
+          <li>Smart contracts usando solidity</li>
+          <li>lua-nvim</li>
+          <li>Linux</li>
         </ul>
       </div>
     </article>
