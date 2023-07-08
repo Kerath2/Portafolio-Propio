@@ -23,7 +23,7 @@ export default function Hero({ }: Props) {
         text-center overflow-hidden mt-9' >
         <BackgroundCircles />
         <Image className='relative rounded-full h-32 w-32 mx-auto object-cover'
-          src='/gerardo.jpeg'
+          src='/images/gerardo.jpeg'
           width={500}
           height={500}
           alt="Imagen de pixel"
